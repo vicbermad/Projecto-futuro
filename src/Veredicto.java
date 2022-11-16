@@ -1,5 +1,5 @@
 public class Veredicto {
-    public static void veredicto(String valor1, String valor2) {
+    private static void veredicto(String valor1, String valor2) {
         if (Integer.valueOf(valor1) > Integer.valueOf(valor2)) {
             System.out.println("Te faltan horas de estudio para cada asignatura, espabila.");
         }
